@@ -1,0 +1,11 @@
+.Vendas {
+    display: flex;
+    height: 4.5rem;
+    border: 1px solid;
+    grid-column: 0 / 1;
+    margin: .5rem 1rem;
+    background: #fff;
+    align-items: center;
+    border-radius: .8rem;
+    justify-content: center;
+}

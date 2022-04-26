@@ -1,0 +1,27 @@
+.menu {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.menu .branding {
+    font-weight: 600;
+    color: #404348;
+    font-size: 1.1rem;
+}
+
+.menu ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu a span {
+    font-size: .8rem;
+    color: #5178df;
+}
+
+.menu ul li {
+    font-size: .9rem;
+    margin: 0px 10px;
+    list-style: none;
+}

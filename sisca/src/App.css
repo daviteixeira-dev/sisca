@@ -1,0 +1,16 @@
+.App .container{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.App .leftBoard {
+    width: 49%;
+}
+
+.App .rightBoard {
+    width: 49%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}

@@ -1,0 +1,48 @@
+.DashboardInfo {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    display: grid;
+    background: #fff;
+}
+
+.DashboardInfo .info-titles {
+    display: grid;
+    padding-left: .1rem;
+    grid-template-columns: 3fr 3fr 2fr .5fr .5fr;
+}
+
+.DashboardInfo div .title {
+    color: #5178df;
+    font-size: .8rem;
+    padding-left: .5rem;
+    margin-bottom: 1rem;
+}
+
+
+.DashboardInfo .bottom-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.DashboardInfo .bottom-info .bottom-info-left span {
+    font-size: .7rem;
+    color: #8c8c8c;
+    font-weight: 500;
+    padding-left: .5rem;
+}
+
+.DashboardInfo .bottom-info .bottom-info-right {
+    padding-right: 1rem;
+}
+
+.DashboardInfo .bottom-info .bottom-info-right button {
+    border: none;
+    color: #8c8c8c;
+    background: #fff;
+}
+
+.DashboardInfo .bottom-info .bottom-info-right button:hover {
+    cursor: pointer;
+}

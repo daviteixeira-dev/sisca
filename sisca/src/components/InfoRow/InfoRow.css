@@ -1,0 +1,44 @@
+.InfoRow {
+    display: grid;
+    margin-bottom: 1rem;
+    grid-template-columns: 3fr 3fr 2fr .5fr .5fr;
+}
+
+.InfoRow p, button {
+    padding: .5rem;
+    font-size: .8rem;
+}
+
+.InfoRow .info-name {
+    font-weight: 600;
+}
+
+.InfoRow .info-curso {
+    color: #8c8c8c;
+    font-weight: 500;
+}
+
+.InfoRow .more {
+    border: none;
+    color: #fff;
+    display: flex;
+    padding: .3rem;
+    border-radius: 50%;
+    background: #1347d3;
+}
+
+.InfoRow .more:hover {
+    cursor: pointer;
+    background: #1755ff;
+}
+
+.InfoRow .ellipsis {
+    border: none;
+    color: #8c8c8c;
+    background: none;
+}
+
+.InfoRow button:hover,
+.InfoRow .ellipsis:hover {
+    cursor: pointer;
+}
