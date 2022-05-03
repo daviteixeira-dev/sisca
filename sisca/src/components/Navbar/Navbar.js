@@ -1,6 +1,7 @@
 import React from "react";
 import App from "../../App";
 import "./Navbar.css";
+import { FaRegSun, FaAngleDown } from 'react-icons/fa';
 
 const Navbar = () => {
   return (
@@ -16,10 +17,10 @@ const Navbar = () => {
           <a href={App}>Histórico</a>
         </li>
         <li>
-          <a href={App}>Engrenagem</a>
+          <a href={App}><FaRegSun /></a>
         </li>
         <li>
-          <a href={App}>Davi Teixeira</a>
+          <a href={App} className="user">Davi Teixeira <FaAngleDown /></a>
         </li>
       </ul>
     </nav>

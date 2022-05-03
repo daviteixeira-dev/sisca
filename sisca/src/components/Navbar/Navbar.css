@@ -25,3 +25,13 @@
     margin: 0px 10px;
     list-style: none;
 }
+
+.menu ul li:hover {
+    cursor: pointer;
+}
+
+.menu ul li .user {
+    color: #5178df;
+    font-weight: 600;
+    text-align: center;
+}
