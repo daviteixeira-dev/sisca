@@ -1,8 +1,10 @@
 .Vendas {
     display: flex;
     height: 4.5rem;
-    grid-column: 0 / 1;
-    margin: .5rem 1rem;
+    padding: 1rem;
+    /*grid-row: 1 / 2;*/
+    grid-column: 3 / 4;
+    margin: .5rem;
     background: #fff;
     align-items: center;
     border-radius: .8rem;

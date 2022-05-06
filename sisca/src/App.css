@@ -12,5 +12,6 @@
 .App .rightBoard {
     width: 49%;
     display: grid;
+    margin: 0 1rem;
     grid-template-columns: 1fr 1fr 1fr;
 }

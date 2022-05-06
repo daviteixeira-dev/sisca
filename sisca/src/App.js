@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import Clientes from "./components/Clientes/Clientes";
+import Historico from "./components/Historico/Historico";
 import DashboardListClientes from "./components/ListClients/DashboardListClientes";
 import Navbar from "./components/Navbar/Navbar";
 import Pendentes from "./components/Pendentes/Pendentes";
@@ -18,6 +19,7 @@ const App = () => {
           <Clientes />
           <Pendentes />
           <Vendas />
+          <Historico />
         </div>
       </div>
     </section>
