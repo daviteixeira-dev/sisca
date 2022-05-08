@@ -2,7 +2,7 @@ import React from "react";
 import "./InfoRow.css";
 import { FaEllipsisV, FaPlus } from "react-icons/fa";
 
-const InfoRow = () => {
+const InfoRow = (props) => {
   const [status, setStatus] = React.useState(true);
   const [cor, setCor] = React.useState("#e3eafc");
   const [text, setText] = React.useState("#ff5356");
@@ -15,12 +15,12 @@ const InfoRow = () => {
   return (
     <section className="InfoRow">
       <div>
-        <p className="info-name">Davi Teixeira</p>
+        <p className="info-name">{props.customer.name}</p>
       </div>
       <div>
-        <p className="info-curso">Sistemas de Informação</p>
+        <p className="info-curso">{props.customer.course}</p>
       </div>
-      <div style={{ display: "flex", justifyContent: "center"}}>
+      <div style={{ display: "flex", justifyContent: "center" }}>
         <button
           onClick={() => setStatus((status) => !status)}
           style={{
