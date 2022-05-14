@@ -6,6 +6,8 @@ import DashboardListClientes from "./components/ListClients/DashboardListCliente
 import Navbar from "./components/Navbar/Navbar";
 import Pendentes from "./components/Pendentes/Pendentes";
 import Vendas from "./components/Vendas/Vendas";
+import Crescimento from "./components/Crescimento/Crescimento";
+import GanhosMensais from "./components/GanhosMensais/GanhosMensais";
 
 const App = () => {
   return (
@@ -15,12 +17,22 @@ const App = () => {
         <div className="leftBoard">
           <DashboardListClientes />
         </div>
+
         <div className="rightBoard">
-          <Clientes />
-          <Pendentes />
-          <Vendas />
-          <Historico />
+          <div className="top">
+            <Clientes />
+            <Pendentes />
+            <Vendas />
+          </div>
+          <div className="graficos">
+            <Crescimento />
+            <GanhosMensais />
+          </div>
+          <div className="bottom">
+            <Historico />
+          </div>
         </div>
+
       </div>
     </section>
   );

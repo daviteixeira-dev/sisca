@@ -1,9 +1,8 @@
 .Historico {
-    width: 100%;
+    width: 98%;
     height: auto;
     display: grid;
     margin: .5rem;
-    border: 1px solid;
     grid-column: 1 / 4;
     background: #fff;
     border-radius: .8rem;
@@ -13,7 +12,7 @@
     width: 100%;
     display: flex;
     padding: 1rem;
-    align-items: top;
+    align-items: center;
     justify-content: center;
 }
 
@@ -41,7 +40,7 @@
     width: 2rem;
     height: 2rem;
     border: none;
-    color: #fff;
+    color: #222;
     padding: .5rem;
     margin-left: 1rem;
     border-radius: .3rem;
@@ -50,5 +49,4 @@
 
 .Historico form button:hover {
     cursor: pointer;
-    background: #1755ff;
 }

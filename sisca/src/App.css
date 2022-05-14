@@ -1,8 +1,8 @@
 .App .container{
-    height: auto;
     width: 100%;
+    height: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .App .leftBoard {
@@ -11,7 +11,18 @@
 
 .App .rightBoard {
     width: 49%;
+}
+
+.App .rightBoard .top {
     display: grid;
-    margin: 0 1rem;
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+.App .rightBoard .graficos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.App .rightBoard .bottom {
+    display: grid;
 }

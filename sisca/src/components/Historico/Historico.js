@@ -1,5 +1,6 @@
 import React from 'react';
 import './Historico.css';
+import { FaExpandAlt } from "react-icons/fa";
 
 const Historico = () => {
     return (
@@ -7,7 +8,7 @@ const Historico = () => {
             <form>
                 <label htmlFor="">Historico</label>
                 <input type="search" name="search" id="search" placeholder='Pesquisar' />
-                <button></button>
+                <button><FaExpandAlt /></button>
             </form>
 
         </section>
